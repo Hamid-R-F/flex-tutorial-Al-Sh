@@ -81,6 +81,15 @@ a{
     text-align: center;
 }
 
+.list{
+    margin: 0.5rem;
+    list-style: none;
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #444;
+}
+
 /* Navbar */
 #navbar{
     display: flex;
@@ -141,3 +150,21 @@ a{
     padding: 1.25rem;
     border-radius: 50%;
 }
+
+/* section2 */
+#section2{
+    display: flex;
+}
+
+#section2 div{
+    flex: 1;
+}
+
+#section2 .img{
+    background: #333 url('../img/section2.jpg') no-repeat center center/cover;
+}
+
+#section2 .content{
+    text-align: right;
+}
+
