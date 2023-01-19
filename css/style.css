@@ -183,3 +183,32 @@ a{
     display: block;
     margin: auto;
 }
+
+/* Section4 */
+#contact{
+    display: flex;
+    justify-content: center;
+}
+
+#contact .contact-form{
+    flex-basis: 600px;
+    text-align: right;
+}
+
+#contact .contact-form label{
+    display: block;
+    margin: 1rem 0;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* Footer */
+#main-footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
