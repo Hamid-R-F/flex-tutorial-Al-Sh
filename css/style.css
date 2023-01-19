@@ -50,6 +50,12 @@ a{
     font-size: 1.3rem;
 }
 
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
 .py-1{padding: 1.5rem 0;}
 .py-2{padding: 2rem 0;}
 .py-3{padding: 3rem 0;}
@@ -69,12 +75,6 @@ a{
 .btn:hover{
     background-color: #fff;
     color: orange;
-}
-
-.container{
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 2rem;
 }
 
 .text-center{
@@ -168,3 +168,18 @@ a{
     text-align: right;
 }
 
+/* Section3 */
+#section3 .items{
+    display: flex;
+}
+
+#section3 .items div{
+    flex: 1;
+}
+
+#section3 .items div img{
+    width: 60%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
