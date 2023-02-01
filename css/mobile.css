@@ -1,0 +1,39 @@
+#section1 .items {
+    flex-direction: column;
+}
+#section1 .items .item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    gap: 1.2rem;
+}
+
+#section3 .items div img{
+    width: 80%;
+}
+#section3 .items div:last-child{
+    display: none;
+}
+
+#contact {
+    padding: 1.25rem;
+}
+
+
+
+@media (max-width: 500px) {
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar ul{
+        padding: 0.5rem;
+    }
+
+    #section2{
+        flex-direction: column;
+    }
+    #section2 .img{
+        flex-basis: 200px;
+    }
+}
